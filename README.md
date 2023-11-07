@@ -11,24 +11,25 @@ Currently, two official plugins are available:
 
 * Menu-one
 
-# Proyecto de Ejemplo de React DOM
+# Proyecto de Ejemplo con React Router
 
-Este es un proyecto de ejemplo que utiliza React DOM para crear interfaces de usuario en aplicaciones web. En este README, te proporcionaré una breve introducción a React DOM y cómo se utiliza en este proyecto.
+Este es un proyecto de ejemplo que utiliza React Router para la gestión de rutas en una aplicación web construida con React. En este README, te proporcionaré una breve introducción a React Router y cómo se utiliza en este proyecto.
 
-## ¿Qué es React DOM?
+## ¿Qué es React Router?
 
-React DOM es una biblioteca de React que se utiliza para manipular el DOM (Document Object Model) en aplicaciones web. Permite a los desarrolladores crear interfaces de usuario dinámicas y reactivas utilizando componentes de React. 
+React Router es una biblioteca de enrutamiento diseñada para aplicaciones web desarrolladas con React. Permite a los desarrolladores gestionar la navegación y las rutas en una aplicación de una sola página (SPA) de manera eficiente. React Router proporciona componentes y funciones que facilitan la creación de aplicaciones con múltiples vistas y la gestión de la URL del navegador.
 
-React DOM es especialmente útil para aplicaciones de una sola página (SPA) donde las actualizaciones en la interfaz de usuario deben realizarse de manera eficiente sin necesidad de recargar toda la página. Puedes utilizar React DOM para renderizar componentes de React en elementos HTML específicos en tu página web.
+## Cómo se utiliza React Router en este proyecto
 
-## Cómo se utiliza React DOM en este proyecto
+En este proyecto de ejemplo, hemos creado una aplicación de lista de tareas que utiliza React Router para mostrar dos vistas diferentes: una vista de lista de tareas y una vista de detalles de tarea. Hemos configurado React Router para que las rutas se correspondan con estas vistas y que el contenido se actualice dinámicamente a medida que el usuario navega entre ellas.
 
-En este proyecto de ejemplo, hemos creado una aplicación web sencilla que muestra una lista de tareas. Hemos utilizado React DOM para renderizar los componentes de React en el elemento HTML con el id "root" en el archivo `index.html`. Aquí hay un ejemplo de cómo se hace:
+Aquí hay un ejemplo de cómo configuramos React Router en nuestra aplicación:
+
 
 # Librerias
 
-- React DOM
-npm i react-dom
+- React Router
+npm i react-router-dom
 
 - REact Icons
  npm i react-icons 
