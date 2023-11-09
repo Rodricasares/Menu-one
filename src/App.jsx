@@ -1,10 +1,9 @@
 //import { useState } from 'react'
 
 import './App.css'
-import { MyRoutes } from './assets/routes/Routes'
+import { MyRoutes } from './assets/routers/Routes'
 
 function App() {
- // const [count, setCount] = useState(0)
 
   return (
 

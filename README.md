@@ -31,5 +31,10 @@ Aquí hay un ejemplo de cómo configuramos React Router en nuestra aplicación:
 - React Router
 npm i react-router-dom
 
-- REact Icons
+- React Icons
  npm i react-icons 
+
+# Css
+
+- React styled components
+npm install styled-components

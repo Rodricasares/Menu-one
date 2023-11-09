@@ -9,6 +9,8 @@
 
 .home,
 .reports,
+.reportsOne,
+.reportsTwo,
 .products {
   display: flex;
   height: 90vh;
