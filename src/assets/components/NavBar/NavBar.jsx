@@ -29,7 +29,7 @@ export function NavBar() {
                 ></AiIcons.AiOutlineClose>
               </NavIcon>
 {Data.map((item, index)=>{
-return <SubMenu key={index} item={item} />
+return <SubMenu key={index} item={item}  close={showSidebar} />
 })}
 
             </SidebarWrap>

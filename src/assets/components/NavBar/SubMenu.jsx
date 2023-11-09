@@ -12,7 +12,7 @@ export function SubMenu({ item ,close}) {
           {item.icon}
           <SidebarLabel>{item.title}</SidebarLabel>
         </div>
-        <div>
+        <div >
         {item.subNav && subnav
            ? item.iconOpened
             : item.subNav 
